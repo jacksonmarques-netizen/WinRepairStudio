@@ -1,0 +1,217 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║          WinRepair & Optimizer Studio - Installation Information            ║
+║                           Version 1.0.0                                     ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📋 SYSTEM REQUIREMENTS
+═════════════════════════════════════════════════════════════════════════════
+
+✓ Operating System:
+  • Windows 10 (Build 17763 or later)
+  • Windows 11 (All versions)
+  • 64-bit (x64) only
+
+✓ Administrator Rights:
+  • Must be run as Administrator
+  • User Account Control (UAC) will prompt for elevation
+
+✓ Disk Space:
+  • Minimum 500 MB free disk space
+  • Recommended 1 GB for temporary operations
+
+✓ Runtime:
+  • .NET Runtime 8.0 or higher
+  • Will be installed automatically if not present (requires internet)
+
+✓ Internet Connection:
+  • Recommended for downloading .NET runtime
+  • Optional for basic repair operations
+
+
+📦 WHAT WILL BE INSTALLED
+═════════════════════════════════════════════════════════════════════════════
+
+The installer will place the following components in the installation directory:
+
+  ├── WinRepairStudio.exe .............. Main application executable
+  ├── WinRepairStudio.dll .............. Core runtime libraries
+  ├── Microsoft.UI.Xaml.dll ............ WinUI 3 framework
+  ├── Microsoft.Windows.*.dll .......... Windows SDK libraries
+  └── [Supporting runtime files]
+
+Default Installation Path:
+  • C:\Program Files\WinRepair & Optimizer Studio\
+
+Programming Data & Logs:
+  • C:\Users\[YourUsername]\AppData\Roaming\WinRepairStudio\Logs\
+
+Start Menu Shortcuts:
+  • Start Menu > WinRepair & Optimizer Studio
+  • Optional: Desktop icon (can be selected during installation)
+
+
+🔧 FEATURES INCLUDED
+═════════════════════════════════════════════════════════════════════════════
+
+1. System Repair
+   └─ DISM Image Restoration
+   └─ System File Checker (SFC) Verification & Repair
+   └─ Boot & MBR Repair
+   └─ BCD Rebuild
+
+2. Disk & Storage Tools
+   └─ Deep Disk Cleanup (Temp files, Recycle Bin)
+   └─ Windows Component Store (WinSxS) Cleanup
+   └─ Drive Optimization & TRIM
+   └─ Bloatware Removal (Pre-installed app cleanup)
+
+3. Network & Connectivity
+   └─ Full Network Stack Reset
+   └─ Winsock Catalog Reset
+   └─ TCP/IP Stack Restoration
+   └─ DNS Cache Flush
+   └─ DHCP Release & Renew
+
+4. Startup & Power Management
+   └─ Startup Item Manager
+   └─ Hibernation Control
+   └─ Power Configuration Analysis
+   └─ Energy Report Generation
+
+5. System Restore Points
+   └─ Create restore points
+   └─ Browse existing restore points
+   └─ Restore system to previous state
+   └─ Registry backup for startup items
+
+
+⚠️  IMPORTANT SAFETY NOTES
+═════════════════════════════════════════════════════════════════════════════
+
+✓ AUTOMATIC SAFEGUARDS:
+  • System Restore Points are created automatically before critical operations
+  • All destructive operations require user confirmation
+  • Registry modifications are backed up before changes
+  • Non-critical files are preserved
+
+✓ BEFORE YOU PROCEED:
+  1. Create a full system backup (external drive recommended)
+  2. Disable third-party antivirus temporarily (may interfere with operations)
+  3. Close all applications and save your work
+  4. Ensure AC power supply (do not use battery)
+  5. Disable sleep and hibernation during repairs
+
+✓ AFTER INSTALLATION:
+  • Always run as Administrator (Right-click > Run as Administrator)
+  • Review operation details in the output log
+  • Do not interrupt long-running operations (DISM/SFC can take 30+ minutes)
+  • Restart the computer when prompted
+
+
+🚀 GETTING STARTED
+═════════════════════════════════════════════════════════════════════════════
+
+1. INSTALLATION:
+   a) Run the installer (WinRepairStudio_Setup_x64.exe)
+   b) Accept the Administrator privilege prompt
+   c) Choose installation directory (default recommended)
+   d) Click "Install" and wait for completion
+   e) Optionally launch the application after installation
+
+2. FIRST RUN:
+   a) Right-click WinRepairStudio > Run as Administrator
+   b) The application will validate administrator privileges
+   c) Select a repair operation from the main menu
+   d) Review the operation description carefully
+   e) Click the operation button to proceed
+   f) Confirm the operation in the dialog box
+   g) Monitor the progress log
+
+3. MAIN MENU OPTIONS:
+   • Dashboard ................. System health overview & quick diagnostics
+   • System Repair ............. DISM, SFC, Boot/BCD repairs
+   • Disk Tools ................ Cleanup, optimization, bloatware removal
+   • Network & Connectivity .... Winsock, TCP/IP, DNS reset
+   • Startup & Power ........... Startup items, hibernation, energy reports
+   • Restore Points ............ Create and manage system restore points
+
+
+📞 SUPPORT & TROUBLESHOOTING
+═════════════════════════════════════════════════════════════════════════════
+
+If you encounter issues during installation or use:
+
+1. Administrator Mode:
+   ✓ Always run as Administrator (Right-click > Run as Administrator)
+   ✓ UAC prompts are normal and required for system-level operations
+
+2. .NET Runtime Issues:
+   ✓ Visit https://dotnet.microsoft.com/download/dotnet/8.0
+   ✓ Download and install "Desktop Runtime" for Windows x64
+   ✓ Restart the application after installation
+
+3. Operation Failures:
+   ✓ Check the output log for error messages
+   ✓ Logs are saved in: C:\Users\[User]\AppData\Roaming\WinRepairStudio\Logs
+   ✓ Create a System Restore Point and try again
+   ✓ Long operations (SFC/DISM) may take 30-60 minutes
+
+4. Network/Connectivity Issues:
+   ⚠️  WARNING: Network reset will disconnect active connections
+   ✓ Save all work before performing network reset
+   ✓ Network changes may require a system restart
+   ✓ Static IP addresses may be reset to DHCP
+
+
+🔐 DATA SECURITY & PRIVACY
+═════════════════════════════════════════════════════════════════════════════
+
+✓ No data collection or telemetry
+✓ No internet communication unless explicitly initiated by user
+✓ All operations are local to your machine
+✓ Logs are stored locally in AppData\Roaming\WinRepairStudio
+✓ Application data is not shared with third parties
+
+
+📋 UNINSTALLATION
+═════════════════════════════════════════════════════════════════════════════
+
+To remove WinRepair & Optimizer Studio:
+
+1. Control Panel > Programs > Programs and Features
+2. Find "WinRepair & Optimizer Studio" in the list
+3. Click "Uninstall"
+4. Follow the uninstall wizard
+5. Optionally delete application logs and data
+6. Restart the computer (recommended)
+
+Manual Removal:
+  • Installation directory: C:\Program Files\WinRepair & Optimizer Studio\
+  • Registry: HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\[AppID]
+  • Logs: C:\Users\[User]\AppData\Roaming\WinRepairStudio\
+
+
+✨ CHANGELOG
+═════════════════════════════════════════════════════════════════════════════
+
+Version 1.0.0 (2026-09-11)
+✓ Initial release
+✓ Complete MVVM architecture with WinUI 3
+✓ All core repair and maintenance features
+✓ Inno Setup installer with multilingual support
+✓ Comprehensive logging and error handling
+✓ System Restore Point management
+✓ Registry backup and rollback capabilities
+
+
+🎉 THANK YOU!
+═════════════════════════════════════════════════════════════════════════════
+
+Thank you for installing WinRepair & Optimizer Studio!
+
+For updates, bug reports, and feature requests, visit:
+https://github.com/jacksonmarques-netizen/WinRepairStudio
+
+Please read the LICENSE.txt file for legal information and disclaimers.
+
+Enjoy maintaining your Windows system! 🚀
